@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hợp Âm - Trung Béo</title>
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <header class="page-header">
+    <h1>Thư Viện Hợp Âm</h1>
+    <p class="tagline">Tổng hợp hợp âm cá nhân, xem nhanh trên mọi thiết bị.</p>
+  </header>
+
+  <main class="content">
+    <section>
+      <h2>Danh sách bài hát</h2>
+      <ul class="song-list">
+        <li><a href="./songs/bai-demo.html">Bài Demo</a></li>
+      </ul>
+    </section>
+
+    <section class="guide">
+      <h2>Hướng dẫn thêm bài mới</h2>
+      <ol>
+        <li>Tạo file mới trong thư mục <code>/songs/</code>, ví dụ <code>bai-moi.html</code>.</li>
+        <li>Sao chép template từ <code>/songs/bai-demo.html</code>.</li>
+        <li>Dán lời từ Word hoặc trình soạn thảo, giữ nguyên định dạng <code>[Am]</code> cho hợp âm.</li>
+        <li>Commit và push lên GitHub.</li>
+      </ol>
+
+      <h2>Deploy bằng GitHub Pages</h2>
+      <ol>
+        <li>Push toàn bộ mã nguồn lên branch <code>main</code> (hoặc <code>master</code>).</li>
+        <li>Trong repository GitHub, mở Settings &gt; Pages.</li>
+        <li>Chọn Source là <code>Deploy from a branch</code>, chọn branch <code>main</code> và folder <code>/ (root)</code>.</li>
+        <li>Lưu lại. Sau vài phút, GitHub Pages cung cấp URL để truy cập site.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <p>Static site - không cần backend hay build.</p>
+  </footer>
+</body>
+</html>
+
